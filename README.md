@@ -48,4 +48,4 @@ Objective : is to build a highly concurrent CLI app
   - sensitive user data should be protected from unauthorized access
 
 
-
+![ER DIAGRAM](https://github.com/naman-sriv/LMS/blob/d37c615f96121ae3299886e047ec7c70169528d7/images/ER%20Diagram.png)
