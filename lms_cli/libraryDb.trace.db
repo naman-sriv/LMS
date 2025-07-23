@@ -1,0 +1,48 @@
+2025-07-20 13:08:38.050126+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]User (\000d\000a        userId varchar(255) not null,\000d\000a        role tinyint not null check (role between 0 and 2),\000d\000a        username varchar(255) not null,\000d\000a        primary key (userId)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table User (
+        userId varchar(255) not null,
+        role tinyint not null check (role between 0 and 2),
+        username varchar(255) not null,
+        primary key (userId)
+    ) [42001-232]
+2025-07-20 13:08:38.065999+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists Transaction \000d\000a       add constraint FKsf9a1w5wq304231ahl4uch4yg \000d\000a       foreign key (userId) \000d\000a       references [*]User"; expected "identifier"; SQL statement:
+
+    alter table if exists Transaction 
+       add constraint FKsf9a1w5wq304231ahl4uch4yg 
+       foreign key (userId) 
+       references User [42001-232]
+2025-07-20 13:18:40.992459+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]User (\000d\000a        userId varchar(255) not null,\000d\000a        role tinyint not null check (role between 0 and 2),\000d\000a        username varchar(255) not null,\000d\000a        primary key (userId)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table User (
+        userId varchar(255) not null,
+        role tinyint not null check (role between 0 and 2),
+        username varchar(255) not null,
+        primary key (userId)
+    ) [42001-232]
+2025-07-20 13:18:41.014757+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists Transaction \000d\000a       add constraint FKsf9a1w5wq304231ahl4uch4yg \000d\000a       foreign key (userId) \000d\000a       references [*]User"; expected "identifier"; SQL statement:
+
+    alter table if exists Transaction 
+       add constraint FKsf9a1w5wq304231ahl4uch4yg 
+       foreign key (userId) 
+       references User [42001-232]
+2025-07-20 13:25:02.529725+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]User (\000d\000a        userId varchar(255) not null,\000d\000a        role tinyint not null check (role between 0 and 2),\000d\000a        username varchar(255) not null,\000d\000a        primary key (userId)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table User (
+        userId varchar(255) not null,
+        role tinyint not null check (role between 0 and 2),
+        username varchar(255) not null,
+        primary key (userId)
+    ) [42001-232]
+2025-07-20 13:25:02.550823+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists Transaction \000d\000a       add constraint FKsf9a1w5wq304231ahl4uch4yg \000d\000a       foreign key (userId) \000d\000a       references [*]User"; expected "identifier"; SQL statement:
+
+    alter table if exists Transaction 
+       add constraint FKsf9a1w5wq304231ahl4uch4yg 
+       foreign key (userId) 
+       references User [42001-232]
